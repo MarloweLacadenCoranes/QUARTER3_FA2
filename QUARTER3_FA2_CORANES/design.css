@@ -1,0 +1,45 @@
+body{
+  text-align:center;
+
+  background-color: rgb(99, 160, 212);
+  background-size: 100%;
+  text-shadow: 0 0 10px rgba(145, 194, 226, 0.5, 0.9);
+  background-attachment: fixed;
+}
+.header {
+  background-color: rgba(34, 151, 197, 0.9);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+}
+.nav {
+  background-color: rgba(34, 151, 197, 0.9);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+#myText, #myText2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.header:hover, .nav:hover, #myText:hover, #myText2:hover {
+  transform: scale(1.02);
+  transition-property: border, background-color, transform;
+  transition-duration: .2s;
+}
